@@ -1,0 +1,48 @@
+.Hud {
+    height: 200%;
+
+
+    &__Selection__Box{
+        width: 20vw;
+        margin: auto;
+        margin-top: 40vh;
+        align-content: center;
+        display: block;
+
+
+        :hover{
+            background-color: #4a402f;
+        }
+
+
+        &__space{
+            height: 10vh;
+            opacity: 0%;
+        }
+
+
+        &__items {
+
+            background-color: #29241a;
+            color: #ffff;
+            padding: 0.5em;
+            border: 5px solid #ffff;
+            
+   
+    
+            p{
+                text-align: center;
+                cursor: default;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        }
+    }
+    
+    
+
+}

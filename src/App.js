@@ -1,12 +1,14 @@
-import './App.css';
-const text = require('./text.json');
+import './styles/Styles.css';
+import Hud from './hudElements/Hud';
+//const text = require('./text.json');
 
 
 function App() {
   return (
     <div className="App">
-      <p>{text.Text}</p>
+      <Hud />
       </div>
+
   );
 }
 
